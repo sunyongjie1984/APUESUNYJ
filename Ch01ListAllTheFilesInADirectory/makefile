@@ -1,5 +1,5 @@
 all : main
 main :
-	g++ -o main -g -std=c++11 ListAllTheFilesInADirectory.cpp ../lib/libApueSunyj.a
+	g++ -o main -g -Wall -std=c++11 ListAllTheFilesInADirectory.cpp ../lib/libApueSunyj.a
 clean :
-	rm *.o main -rf
+	rm -rf *.o main *.dSYM

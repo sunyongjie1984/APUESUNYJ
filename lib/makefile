@@ -4,4 +4,4 @@ libApueSunyj.a: error.o
 error.o: error.cpp apuesunyj.h
 	g++ -c -g -Wall error.cpp -o error.o
 clean:
-	rm error.o libApueSunyj.a
+	rm -rf error.o libApueSunyj.a
