@@ -4,7 +4,7 @@
 
 #include "../lib/apuesunyj.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     DIR* dp;
     struct dirent* dirp;
@@ -12,11 +12,11 @@ int main(int argc, char *argv[])
     {
         err_quit("usage: ls directory_name");
     }
-    if ((dp = opendir(argv[1])) == NULL)
+    if (NULL == (dp = opendir(argv[1])))
     {
         err_sys("can’t open %s", argv[1]);
     }
-    while ((dirp = readdir(dp)) != NULL)
+    while (NULL != (dirp = readdir(dp)))
     {
         printf("%s\n", dirp->d_name);
     }
