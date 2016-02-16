@@ -5,8 +5,8 @@
 
 int main()
 {
-	int n;
-	char buf[BUFFSIZE];
+    int n;
+    char buf[BUFFSIZE];
 
     // By convention, all shells open three descriptors whenever a new program is run:
     // standard input, standard output, and standard error.

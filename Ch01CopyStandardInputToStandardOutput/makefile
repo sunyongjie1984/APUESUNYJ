@@ -1,5 +1,5 @@
 all : main
-main :
-	g++ -o main -g -std=c++11 CopyStandardInputToStandardOutput.cpp ../lib/libApueSunyj.a
+main : CopyStandardInputToStandardOutput.cpp
+	g++ -o main -g -Wall -std=c++11 CopyStandardInputToStandardOutput.cpp ../lib/libApueSunyj.a
 clean :
-	rm *.o main -rf
+	rm -rf *.o main *.dSYM
