@@ -33,6 +33,7 @@ int main()
 
     return 0;
 }
+
 // The standard I/O functions provide a buffered interface to the unbuffered I/O
 // functions. Using standard I/O relieves us from having to choose optimal buffer sizes,
 // such as the BUFFSIZE constant in Figure 1.4. The standard I/O functions also simplify
