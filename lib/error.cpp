@@ -1,6 +1,5 @@
 // error.cpp
 #include "apuesunyj.h"
-
 /*
  *  * Print a message and return to caller.
  *   * Caller specifies "errnoflag".
